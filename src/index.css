@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-void text-ink-hi font-sans;
+}
+
+/* Fond fixe : place l'image dans src/assets/background.jpg (déjà copiée) */
+.bg-fixed {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(
+      60% 50% at 50% 40%,
+      rgba(4, 9, 7, 0.35) 0%,
+      rgba(4, 9, 7, 0.82) 60%,
+      rgba(4, 9, 7, 0.96) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(4, 9, 7, 0.55) 0%,
+      rgba(4, 9, 7, 0.15) 12%,
+      rgba(4, 9, 7, 0.15) 80%,
+      rgba(4, 9, 7, 0.9) 100%
+    );
+}
+
+::selection {
+  background: #10b981;
+  color: #02110c;
+}
