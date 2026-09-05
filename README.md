@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -17,3 +18,7 @@ You can also try [the experimental native React Compiler support in plugin-react
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# emerald
+Emerald is a modern multi-tenant SaaS platform designed to empower businesses with a comprehensive suite of digital services. Built as a scalable ecosystem, it provides companies with tools for operational management, customer engagement, and business growth—all from a single, unified interface.
+>>>>>>> 2dfd62883a0a5effe2607d9aa4a8cd36c5bef6f4
